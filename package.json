@@ -1,10 +1,10 @@
 {
-  "name": "react-redux-saga-advanced-starter",
+  "name": "wheater_app",
   "version": "1.0.0",
-  "description": "Advanced starter boilerplate for React with Redux, Redux-Saga, Redux-Router and Babel support",
+  "description": "Weather app which is responsible for displaying weather predictions for selected cities",
   "main": "index.js",
   "repository": "https://github.com/KaiHotz/React-Redux-Simple-Starter",
-  "author": "Kai Hotz",
+  "author": "Jakub Grzelak",
   "license": "MIT",
   "private": true,
   "scripts": {

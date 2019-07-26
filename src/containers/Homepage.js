@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 import { compose } from 'recompose'
 import { createStructuredSelector } from 'reselect'
 import { connect } from 'react-redux'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
+import '../styles/cover.scss'
 
 import {
   exampleDataSelector,
@@ -36,32 +37,26 @@ class ExampleContainer extends Component {
   render() {
     const { exampleData, fetching } = this.props
 
-    if (fetching) return <LoadingAnimation />
+    // if (fetching) return <LoadingAnimation />
 
     return (
-      <div>
-        <h1>Example Container</h1>
-        <br />
-        <div className="row">
-          <div className="card">
-            <h4 className="card-header">
-              Example Data:
-            </h4>
-            <div className="card-body">
-              <h4 className="card-title">
-                {exampleData.title}
-              </h4>
-              <p className="card-text">
-                {exampleData.body}
+      <div className="text-center">
+        <div className="cover-container">
+          <main role="main" className="inner cover">
+            <h1 className="cover-heading">Are you curious what is the weather like?</h1>
+              <p className="lead">
+                Find your desired city and check if it is worth to come out or if this is a good day for a morning run.
               </p>
-              <Link
-                to="/exampleComponent"
-                className="btn btn-warning"
-              >
-                Link to Example Component
-              </Link>
+            <p className="lead">
+              <a href="#" className="btn btn-lg btn-secondary">Learn more</a>
+            </p>
+          </main>
+        
+          <footer className="mastfoot mt-auto">
+            <div className="inner">
+              <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
             </div>
-          </div>
+          </footer>
         </div>
       </div>
     )
