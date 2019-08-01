@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom'
 import '../styles/cover.scss';
 import '../styles/components/Header.scss';
 
-export default () => (
+export const Header = () => (
     <header className="header-container">
       <div className="inner">
         <h3 className="masthead-brand">Wheather App</h3>
@@ -14,3 +14,5 @@ export default () => (
       </div>
     </header>
 );
+
+export default Header

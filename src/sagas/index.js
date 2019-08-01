@@ -1,8 +1,9 @@
 import { all, fork } from 'redux-saga/effects'
-import watchExampleSagas from './exampleSagas'
+import watchCitySagas from './citySagas';
 
 export default function* rootSaga() {
+  // yield take(REHYDRATE);
   yield all([
-    fork(watchExampleSagas),
+    fork(watchCitySagas)
   ])
 }

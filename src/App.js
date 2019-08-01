@@ -2,15 +2,15 @@ import React from 'react'
 import { compose } from 'recompose'
 import { Route, Switch, withRouter } from 'react-router-dom'
 import WithErrors from './hocs/WithErrors'
-import ExampleComponent from './components/ExampleComponent'
 import Homepage from './containers/Homepage'
+import RecentChecks from './containers/RecentChecks';
 import Header from './components/Header';
 
 const App = () => (
   <div>
     <Header />
     <Switch>
-      <Route exact path="/exampleComponent" component={ExampleComponent} />
+      <Route exact path="/recent-checks" component={RecentChecks} />
       <Route exact path="/" component={Homepage} />
     </Switch>
   </div>

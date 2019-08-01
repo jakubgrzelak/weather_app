@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseForm correctly with expense data 1`] = `ReactWrapper {}`;
+
+exports[`should render city form correctly 1`] = `"<Formik validate={[Function]} handleSubmit={[Function: handleSubmit]} displayName=\\"BasicForm\\" validationSchema={[undefined]} initialValues={{...}} initialStatus={[undefined]} onSubmit={[Function]} render={[Function]} validateOnChange={true} validateOnBlur={true} isInitialValid={false} enableReinitialize={false} />"`;

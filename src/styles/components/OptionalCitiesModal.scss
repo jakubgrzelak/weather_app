@@ -1,0 +1,55 @@
+.modal-content {
+  border: none;
+
+  h5 {
+    width: 400px;
+    text-align: center;
+    color: #000;
+    text-shadow: none;
+  }
+
+  h6 {
+    color: #000;
+    text-shadow: none;
+    cursor: pointer;
+  }
+
+  h6:hover {
+    opacity: 0.5;
+  }
+
+  .button-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .city-row {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #EAEAEA;
+    align-items: center;
+
+    .icon-world-map {
+      width: 30px;
+      cursor: pointer;
+      margin-bottom: 3px;
+    }
+
+    .icon-world-map:hover {
+      opacity: 0.5;
+    }
+  }
+
+  .map-container {
+    width: 100px;
+    height: 100px;
+  }
+
+
+}
+
+.ReactModal__Overlay--after-open {
+  background-color: unset !important;
+}
