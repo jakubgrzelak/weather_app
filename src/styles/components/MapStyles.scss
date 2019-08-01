@@ -1,0 +1,14 @@
+.close-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;  
+
+  .close-button {
+    margin-bottom: 5px;
+    color: black;
+    cursor: pointer;
+    width: 10px; 
+    left: 0;
+  }
+
+}

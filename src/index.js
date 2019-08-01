@@ -14,8 +14,10 @@ import './styles/styles.scss'
 
 const initialState = {}
 const history = createBrowserHistory()
-const store = configureStore(initialState, history)
+const { store } = configureStore(initialState, history)
 store.runSaga(rootSaga)
+
+require('dotenv').config();
 
 const render = Component => {
   ReactDOM.render(

@@ -11,4 +11,12 @@ export const ITEM = createActionTypes('ITEM', [
   'FAILURE',
 ])
 
+export const CITY = createActionTypes('ITEM', [
+  'SAVE_OPTIONAL_CITIES',
+  'ONE_CITY_WEATHER_REQUEST',
+  'ONE_CITY_WEATHER_SUCCESS',
+  'ONE_CITY_WEATHER_FAILURE',
+  'REMEMBER_CITY',
+])
+
 export default ITEM
