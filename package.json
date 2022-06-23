@@ -60,7 +60,7 @@
     "enzyme-to-json": "^3.3.5",
     "eslint-watch": "^6.0.0",
     "jasmine-expect": "^4.0.2",
-    "jsdom": "15.1.1",
+    "jsdom": "16.5.0",
     "jsdom-global": "3.0.2",
     "node-sass": "^4.12.0",
     "react-test-renderer": "^16.8.6",
